@@ -20,6 +20,8 @@ require "pry"
      
       #refactor of above is below so it doesnt give huge nokogir object judt keys (title) and values (hash)
  def create_project_hash
+   
+   
   projects = {}
  
   kickstarter.css("li.project.grid_4").each do |project|
