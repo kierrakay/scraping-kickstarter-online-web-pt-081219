@@ -18,7 +18,7 @@ require "pry"
 #   projects
 # end
      
-      #refactor of above is below so it doesnt give huge nokogir obect
+      #refactor of above is below so it doesnt give huge nokogir object judt keys (title) and values (hash)
  def create_project_hash
   projects = {}
  
