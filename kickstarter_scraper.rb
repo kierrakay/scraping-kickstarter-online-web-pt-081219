@@ -54,4 +54,6 @@ create_project_hash
  
  # location: project.css("ul.project-meta span.location-name").text
  
+ #description: 
+ 
  # percent_funded: project.css("ul.project-stats li.first.funded strong").text.gsub("%","").to_i  #.gsub("%","").to_i takes percent away and converts to interger so 77% turns to 77
